@@ -26,8 +26,11 @@ npm run build 构建dist包
   - models 状态管理层
   - pages 页面层
   - service 服务层
-- typings 类型定义层
-- utils 工具层
+  - typings 类型定义层
+  - utils 工具层
+  - styles 全局样式
+- gloabl.less 全局样式入口
+- app.js 运行时umi配置入口
 - .umirc.ts 基本配置
 - .umirc.dev.ts   npm run start 用的配置
 - .umirc.prod.ts   npm run build 用的配置
