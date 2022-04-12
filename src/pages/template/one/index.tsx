@@ -3,6 +3,6 @@ import ContentWrapper from '@/components/ContentWrapper';
 import styles from './index.less';
 
 export default function Page() {
-  const [a, setA] = useState<string>(0);
+  const [a, setA] = useState<string>(1);
   return <ContentWrapper title="模版页面1">模版页面1</ContentWrapper>;
 }
